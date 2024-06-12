@@ -1,7 +1,6 @@
 
 export const getPhotosById = async(id) => {
-  const photosRaw =  await fetch(`http://localhost:3001/externalapi/photos/${id}`)
-  
+  const photosRaw =  await fetch(`http://34.207.85.125:3000/externalapi/photos/${id}`)
   return (
     photosRaw.json()
   )

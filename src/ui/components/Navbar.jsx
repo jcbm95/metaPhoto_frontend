@@ -30,13 +30,6 @@ export const Navbar = () => {
                     >
                         Photo
                     </NavLink>
-
-                    <NavLink 
-                        className={ ({isActive}) => `nav-item nav-link  ${ isActive ? 'active':'' }` }
-                        to="/dc"
-                    >
-                        Album
-                    </NavLink>
                     
                     <NavLink 
                         className={ ({isActive}) => `nav-item nav-link  ${ isActive ? 'active':'' }` }
@@ -51,14 +44,14 @@ export const Navbar = () => {
                 <ul className="navbar-nav ml-auto">
                    
                     <span className="nav-item nav-link text-primary">
-                        Jose
+                        Jose Bautista | Relish
                     </span>
 
                     <button
                         className="nav-item nav-link btn"
                         onClick={ onLogout }
                     >
-                        Bautista
+                        logout
                     </button>
 
                 </ul>
