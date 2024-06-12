@@ -2,7 +2,7 @@
 
 Este repositorio contiene la aplicacion web para un ejercicio llamado metaphoto para poder visualizar fotos aplicando diferentes tipos de busqueda.
 
-Link: [Link to Meta Photo Website](http://meta-photo-website.s3-website-us-east-1.amazonaws.com/photo)
+Link: [Link to Meta Photo Website](http://meta-photo-website.s3-website-us-east-1.amazonaws.com/index.html)
 Backend: [Link to Meta Photo Website](https://github.com/jcbm95/meta_photo_backend.git)
 Tecnologia utilizada:
 
